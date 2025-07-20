@@ -1,7 +1,7 @@
-import { Card } from "@/components/ui/card.jsx";
-import { Button } from "@/components/ui/button.jsx";
-import { Input } from "@/components/ui/input.jsx";
-import { Select, SelectItem } from "@/components/ui/select.jsx";
+import { Card } from "@/Components/ui/card.jsx";
+import { Button } from "@/Components/ui/button.jsx";
+import { Input } from "@/Components/ui/input.jsx";
+import { Select, SelectItem } from "@/Components/ui/select.jsx";
 
 export default function FieldRow({ field, onChange, onDelete, onAddNested, renderChildren }) {
   return (
