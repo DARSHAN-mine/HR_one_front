@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FieldRow from "./FieldRow";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button.jsx";
+import { Textarea } from "@/components/ui/textarea.jsx";
 import { v4 as uuidv4 } from "uuid";
 
 const defaultField = () => ({ id: uuidv4(), key: "", type: "string", children: [] });
