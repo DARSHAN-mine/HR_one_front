@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FieldRow from "./FieldRow";
+import FieldRow from "./FieldRow.jsx";
 import { Button } from "@/components/ui/button.jsx";
 import { Textarea } from "@/components/ui/textarea.jsx";
 import { v4 as uuidv4 } from "uuid";
