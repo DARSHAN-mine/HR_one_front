@@ -1,4 +1,4 @@
-import SchemaBuilder from "./Components/SchemaBuilder.jsx";
+import SchemaBuilder from "./components/SchemaBuilder.jsx";
 
 function App() {
   return (
